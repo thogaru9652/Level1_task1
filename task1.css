@@ -1,0 +1,157 @@
+/* General Styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+  
+}
+
+/* Header Styles */
+header {
+    background: #ff5722;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact-info span {
+    margin-bottom: 5px;
+}
+
+.btn {
+    background: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('hero-background.jpg') ;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    margin-right: 350px;
+   
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    max-height: auto;
+    max-width: auto;
+}
+
+/* Features Section Styles */
+.features {
+    background: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* About Us Section Styles */
+.about-us {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Services Section Styles */
+.services {
+    background: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services .service {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.services .service img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.services .service h3 {
+    margin-top: 10px;
+}
